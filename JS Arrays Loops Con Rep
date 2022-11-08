@@ -1,0 +1,77 @@
+//Easy Going
+var array = [];
+for(var i = 1; i <= 20; i++)
+    {
+        array.push(i);
+    }
+    console.log("\t"+ array.join(','));
+    console.log("\tEasy Going Answered")
+
+//Get Even
+var array = [];
+for(var i = 0; i <= 200; i=i+2)
+    {
+        array.push(i);
+    }
+    console.log("\t"+ array.join(','));
+    console.log("\tGet Even Answered")
+
+//Fizz Buzz
+var array = [];
+for(var i = 1; i <= 100; i++){
+    if (i % 3 === 0 ) {
+        console.log('Fizz');
+    } else if ( i % 5 === 0 ) {
+        console.log('Buzz')
+    } else if ( i % 3 ===0 && i % 5 === 0 ) {
+        console.log('Fizzbuzz');
+    } else console.log(i)
+}
+console.log("\tFizz Buzz Answered")
+
+//Wild Wild Life
+const wolfy = ["Gameboy", "wolf", 16, "Gotham City"]
+const sharky = ["Sharky", "shark", 20, "Left Coast"]
+const plantee = ["Plantee", "plant",  5001 , "Mordor"]
+const porgee = ["Porgee", "Porg", 186, "Ahch-To"]
+const dart = ["D'Art" , "Demogorgan Dog", 2, "Hawkins"]
+
+console.log(wolfy)
+console.log(sharky)
+console.log(plantee)
+console.log(porgee)
+console.log(dart)
+console.log('Wild Wild Life Answered')
+
+//Yell At The Ninja Turtles
+let ninjaTurtles = ['Donatello', 'Leonardo', 'Raphael', 'Michaelangelo']
+for (let turtle of ninjaTurtles) {
+  turtle = turtle.toUpperCase()
+  console.log(turtle)
+}
+
+//Methods Revisited
+const favMovies = ['Jaws', 'The Fellowship of the Ring', 'Howl\'s Moving Castle', 'Django Unchained', 'Cloud Atlas', 'The Usual Suspects', 'Toy Story', 'Conan the Barbarian', 'Titanic', 'Harry Potter', 'Fried Green Tomatoes', 'Volver', 'Oculus', 'Seven', 'Black Panther', 'Harry Potter', 'Imitation of Life', 'Snatch', 'Fast and Furious'];
+    favMovies.sort();
+    favMovies.pop();
+    favMovies.push('Guardians of the Galaxy')
+    favMovies.reverse();
+    favMovies.shift();
+    favMovies.unshift();
+    favMovies.splice(15, 0, 'Avatar')
+    favMovies2 = favMovies.slice(9, 18)
+    console.log(favMovies2)
+    console.log('Methods Revisited Answered')
+
+//Excited Cat
+let hiss = "Love me, pet me! HSSSSSS!"
+hiss = hiss.repeat(20)
+let catsphrases = [
+    "...human...why you taking pictures of me?...",
+    "...the catnip made me do it...", 
+    "...why does the red dot always get away..."
+    ]
+   let randomItem =
+   catsphrases[Math.floor(Math.random()*catsphrases.length)];
+   
+   console.log(Math.round(catsphrases)); 
